@@ -74,7 +74,7 @@ function isDanger(location)
             if ((currentMinute - tonumber(minute)) < 5) then
                 return "Camped"
             end
-        end8
+        end
     end
 end
 
