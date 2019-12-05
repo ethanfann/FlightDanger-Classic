@@ -1,6 +1,8 @@
 # FlightDanger-Classic
 Adds a tooltip warning to potentially camped Flight Masters.
 
+![Imgur](https://i.imgur.com/7facgPB.png)
+
 ## How it Works
 
 1. Scans **World Defense** and extracts the city name + timestamp of the message.
