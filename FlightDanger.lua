@@ -16,7 +16,7 @@ fd:RegisterEvent("TAXIMAP_OPENED")
 fd:SetScript("OnEvent",
              function(self, event, msg, _, _, _, _, _, _, channel, channelname)
 
-    if (event == "CHAT_MSG_CHANNEL") and (channelname == "WorldDefense") then
+    if (event == "CHAT_MSG_CHANNEL") and (channelname == "WorldDefense" or channelname == "ecftest") then
 
         -- Left pad the minutes if it's 0-9. We always want 14:09, for example.
         local hour, minute = GetGameTime()
@@ -70,8 +70,8 @@ function isDanger(location)
         local hour, minute = timeago:match("([^,]+):([^,]+)")
         local currentHour, currentMinute = GetGameTime()
         if (tonumber(hour) == currentHour) then
-            -- Only mark as dangerous of the world defense message is less than 5 minutes ago
-            if ((currentMinute - tonumber(minute)) < 5) then
+            -- Only mark as dangerous of the world defense message 5 minutes or less ago
+            if ((currentMinute - tonumber(minute)) <= 5) then
                 return "Camped"
             end
         end
