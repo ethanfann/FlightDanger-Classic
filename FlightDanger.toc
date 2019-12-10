@@ -1,4 +1,4 @@
-## Interface: 11302
+## Interface: 11303
 ## Title: FlightDanger
 ## Author: Palaris
 ## Notes: Warns you of potentially camped flight masters
