@@ -15,6 +15,6 @@ Adds a tooltip warning to potentially camped Flight Masters.
 2. Give a warning if the flight point you're currently flying to has been attacked since you took off. Perhaps prompt to land and fly eslewhere?
 3. Provide options such as the ability to set a custom timeframe of say 10 minutes instead of the default 5.
 4. More detailed tooltips? Example "Camped X Minutes Ago"
-5. Implement cross-player addon communication once more people have the addon installed. This will provide a more accurate event when Flight Masters are found dead.
+5. ~~Implement cross-player addon communication once more people have the addon installed. This will provide a more accurate event when Flight Masters are found dead.~~ Blizzard has removed this API with the release of Battlegrounds.
 
 
