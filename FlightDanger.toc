@@ -1,6 +1,6 @@
 ## Interface: 11305
 ## Title: FlightDanger
 ## Author: Palaris
-## Notes: Warns you of potentially camped flight masters
+## Notes: Attempts to warn you of potentially camped flight masters
 ## Version: 1.0
 FlightDanger.lua
